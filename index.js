@@ -93,7 +93,7 @@ async function main(){
       { _id: new ObjectId(id) },
     );
 
-    res.send("Item Removido com Sucesso");
+    res.send("Item Removido com Sucessoo");
   })
 
   app.listen(process.env.PORT || 3000);
